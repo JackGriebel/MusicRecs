@@ -1,0 +1,40 @@
+<head>
+    <script src="./site.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+    <div class="nav-bar">
+        <div class="recommended-track">
+            Recommended track:
+            <br>
+            <br>
+            <span id="album-track"></span>
+        </div>
+        <div>
+            <a href="home.html">Home</a>
+            <br>
+            <br>
+            <a onclick="route(4)">Random Album</a>
+        </div>
+    </div>
+    <div class="user-content">
+        <div id="album-iframe" class="album-content">
+        </div>
+        <div class="user-input-group">
+            <div id="album-btn-1" class="album-btn" onclick="route(1)">
+                This is some text
+            </div>
+            <div id="album-btn-2" class="album-btn" onclick="route(2)">
+                This is another album recommendation
+            </div>
+            <div id="album-btn-3" class="album-btn" onclick="route(3)">
+                Here are some more recommendations for albums
+            </div>
+        </div>
+    </div>
+</body>
